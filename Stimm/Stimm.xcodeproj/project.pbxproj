@@ -1,0 +1,579 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7F28003425B37968005F7BCE /* StimmApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F28003325B37968005F7BCE /* StimmApp.swift */; };
+		7F28003625B37968005F7BCE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F28003525B37968005F7BCE /* ContentView.swift */; };
+		7F28003825B37969005F7BCE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7F28003725B37969005F7BCE /* Assets.xcassets */; };
+		7F28003B25B37969005F7BCE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7F28003A25B37969005F7BCE /* Preview Assets.xcassets */; };
+		7F28004625B37969005F7BCE /* StimmTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F28004525B37969005F7BCE /* StimmTests.swift */; };
+		7F28005125B37969005F7BCE /* StimmUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F28005025B37969005F7BCE /* StimmUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7F28004225B37969005F7BCE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7F28002825B37968005F7BCE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7F28002F25B37968005F7BCE;
+			remoteInfo = Stimm;
+		};
+		7F28004D25B37969005F7BCE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7F28002825B37968005F7BCE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7F28002F25B37968005F7BCE;
+			remoteInfo = Stimm;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7F28003025B37968005F7BCE /* Stimm.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Stimm.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7F28003325B37968005F7BCE /* StimmApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StimmApp.swift; sourceTree = "<group>"; };
+		7F28003525B37968005F7BCE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		7F28003725B37969005F7BCE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7F28003A25B37969005F7BCE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		7F28003C25B37969005F7BCE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7F28004125B37969005F7BCE /* StimmTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StimmTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7F28004525B37969005F7BCE /* StimmTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StimmTests.swift; sourceTree = "<group>"; };
+		7F28004725B37969005F7BCE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7F28004C25B37969005F7BCE /* StimmUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StimmUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7F28005025B37969005F7BCE /* StimmUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StimmUITests.swift; sourceTree = "<group>"; };
+		7F28005225B37969005F7BCE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7F28002D25B37968005F7BCE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7F28003E25B37969005F7BCE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7F28004925B37969005F7BCE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7F28002725B37968005F7BCE = {
+			isa = PBXGroup;
+			children = (
+				7F28003225B37968005F7BCE /* Stimm */,
+				7F28004425B37969005F7BCE /* StimmTests */,
+				7F28004F25B37969005F7BCE /* StimmUITests */,
+				7F28003125B37968005F7BCE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7F28003125B37968005F7BCE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7F28003025B37968005F7BCE /* Stimm.app */,
+				7F28004125B37969005F7BCE /* StimmTests.xctest */,
+				7F28004C25B37969005F7BCE /* StimmUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7F28003225B37968005F7BCE /* Stimm */ = {
+			isa = PBXGroup;
+			children = (
+				7F28003325B37968005F7BCE /* StimmApp.swift */,
+				7F28003525B37968005F7BCE /* ContentView.swift */,
+				7F28003725B37969005F7BCE /* Assets.xcassets */,
+				7F28003C25B37969005F7BCE /* Info.plist */,
+				7F28003925B37969005F7BCE /* Preview Content */,
+			);
+			path = Stimm;
+			sourceTree = "<group>";
+		};
+		7F28003925B37969005F7BCE /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				7F28003A25B37969005F7BCE /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		7F28004425B37969005F7BCE /* StimmTests */ = {
+			isa = PBXGroup;
+			children = (
+				7F28004525B37969005F7BCE /* StimmTests.swift */,
+				7F28004725B37969005F7BCE /* Info.plist */,
+			);
+			path = StimmTests;
+			sourceTree = "<group>";
+		};
+		7F28004F25B37969005F7BCE /* StimmUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7F28005025B37969005F7BCE /* StimmUITests.swift */,
+				7F28005225B37969005F7BCE /* Info.plist */,
+			);
+			path = StimmUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7F28002F25B37968005F7BCE /* Stimm */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7F28005525B37969005F7BCE /* Build configuration list for PBXNativeTarget "Stimm" */;
+			buildPhases = (
+				7F28002C25B37968005F7BCE /* Sources */,
+				7F28002D25B37968005F7BCE /* Frameworks */,
+				7F28002E25B37968005F7BCE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Stimm;
+			productName = Stimm;
+			productReference = 7F28003025B37968005F7BCE /* Stimm.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7F28004025B37969005F7BCE /* StimmTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7F28005825B37969005F7BCE /* Build configuration list for PBXNativeTarget "StimmTests" */;
+			buildPhases = (
+				7F28003D25B37969005F7BCE /* Sources */,
+				7F28003E25B37969005F7BCE /* Frameworks */,
+				7F28003F25B37969005F7BCE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7F28004325B37969005F7BCE /* PBXTargetDependency */,
+			);
+			name = StimmTests;
+			productName = StimmTests;
+			productReference = 7F28004125B37969005F7BCE /* StimmTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7F28004B25B37969005F7BCE /* StimmUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7F28005B25B37969005F7BCE /* Build configuration list for PBXNativeTarget "StimmUITests" */;
+			buildPhases = (
+				7F28004825B37969005F7BCE /* Sources */,
+				7F28004925B37969005F7BCE /* Frameworks */,
+				7F28004A25B37969005F7BCE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7F28004E25B37969005F7BCE /* PBXTargetDependency */,
+			);
+			name = StimmUITests;
+			productName = StimmUITests;
+			productReference = 7F28004C25B37969005F7BCE /* StimmUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7F28002825B37968005F7BCE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1230;
+				LastUpgradeCheck = 1230;
+				TargetAttributes = {
+					7F28002F25B37968005F7BCE = {
+						CreatedOnToolsVersion = 12.3;
+					};
+					7F28004025B37969005F7BCE = {
+						CreatedOnToolsVersion = 12.3;
+						TestTargetID = 7F28002F25B37968005F7BCE;
+					};
+					7F28004B25B37969005F7BCE = {
+						CreatedOnToolsVersion = 12.3;
+						TestTargetID = 7F28002F25B37968005F7BCE;
+					};
+				};
+			};
+			buildConfigurationList = 7F28002B25B37968005F7BCE /* Build configuration list for PBXProject "Stimm" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7F28002725B37968005F7BCE;
+			productRefGroup = 7F28003125B37968005F7BCE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7F28002F25B37968005F7BCE /* Stimm */,
+				7F28004025B37969005F7BCE /* StimmTests */,
+				7F28004B25B37969005F7BCE /* StimmUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7F28002E25B37968005F7BCE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F28003B25B37969005F7BCE /* Preview Assets.xcassets in Resources */,
+				7F28003825B37969005F7BCE /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7F28003F25B37969005F7BCE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7F28004A25B37969005F7BCE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7F28002C25B37968005F7BCE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F28003625B37968005F7BCE /* ContentView.swift in Sources */,
+				7F28003425B37968005F7BCE /* StimmApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7F28003D25B37969005F7BCE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F28004625B37969005F7BCE /* StimmTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7F28004825B37969005F7BCE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F28005125B37969005F7BCE /* StimmUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7F28004325B37969005F7BCE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7F28002F25B37968005F7BCE /* Stimm */;
+			targetProxy = 7F28004225B37969005F7BCE /* PBXContainerItemProxy */;
+		};
+		7F28004E25B37969005F7BCE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7F28002F25B37968005F7BCE /* Stimm */;
+			targetProxy = 7F28004D25B37969005F7BCE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		7F28005325B37969005F7BCE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7F28005425B37969005F7BCE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7F28005625B37969005F7BCE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Stimm/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Stimm/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.NaomiCarvalho.Stimm;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7F28005725B37969005F7BCE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Stimm/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Stimm/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.NaomiCarvalho.Stimm;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		7F28005925B37969005F7BCE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = StimmTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.NaomiCarvalho.StimmTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Stimm.app/Stimm";
+			};
+			name = Debug;
+		};
+		7F28005A25B37969005F7BCE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = StimmTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.NaomiCarvalho.StimmTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Stimm.app/Stimm";
+			};
+			name = Release;
+		};
+		7F28005C25B37969005F7BCE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = StimmUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.NaomiCarvalho.StimmUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Stimm;
+			};
+			name = Debug;
+		};
+		7F28005D25B37969005F7BCE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = StimmUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.NaomiCarvalho.StimmUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Stimm;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7F28002B25B37968005F7BCE /* Build configuration list for PBXProject "Stimm" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7F28005325B37969005F7BCE /* Debug */,
+				7F28005425B37969005F7BCE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7F28005525B37969005F7BCE /* Build configuration list for PBXNativeTarget "Stimm" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7F28005625B37969005F7BCE /* Debug */,
+				7F28005725B37969005F7BCE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7F28005825B37969005F7BCE /* Build configuration list for PBXNativeTarget "StimmTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7F28005925B37969005F7BCE /* Debug */,
+				7F28005A25B37969005F7BCE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7F28005B25B37969005F7BCE /* Build configuration list for PBXNativeTarget "StimmUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7F28005C25B37969005F7BCE /* Debug */,
+				7F28005D25B37969005F7BCE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7F28002825B37968005F7BCE /* Project object */;
+}
