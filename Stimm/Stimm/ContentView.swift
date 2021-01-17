@@ -2,15 +2,20 @@
 //  ContentView.swift
 //  Stimm
 //
-//  Created by Samantha Carvalho on 1/16/21.
+//  Created by Naomi Carvalho on 1/16/21.
 //
 
 import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        
+        Text("test 2").padding(.all).background(Color(red: 0.5, green: 0.5, blue: 1.0, opacity: 1.0).blur(radius: 5)).font(Font.title)
+            
+        
+
+
+
     }
 }
 
