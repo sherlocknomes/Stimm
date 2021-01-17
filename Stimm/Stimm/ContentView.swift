@@ -10,11 +10,43 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         
-        Text("test 2").padding(.all).background(Color(red: 0.5, green: 0.5, blue: 1.0, opacity: 1.0).blur(radius: 5)).font(Font.title)
+        ZStack {
+            Image("BackgroundTitle").resizable().frame(height: 900.0)//.aspectRatio(contentMode:  .fit)
             
+            
+                        
+            VStack(spacing: 20.0) {
+                //Spacer() takes up all of the available space
+                Spacer()
+                
+                VStack() {
+                
+                    Image("Logo")
+                        .resizable()
+                        .aspectRatio(contentMode: .fit)
+                        .padding()
+                }
+                
+            
+                
+                Text("Welcome to")
+                    .foregroundColor(Color.white)
+                    .fixedSize()
+                    .frame(height: 18.0)
+                Text("Stimm")
+                    .foregroundColor(Color.white)
+                    .frame(height: 10.0)
+                    .padding()
+                
+                
+                Spacer()
+                
+            }
+            
+            
+        }
         
-
-
+        
 
     }
 }
