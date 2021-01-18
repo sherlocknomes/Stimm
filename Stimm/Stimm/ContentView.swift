@@ -66,30 +66,25 @@ struct ContentView: View {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
 //SaveData: saves data gathered in the quick check given upon opening the app
-struct SaveData {
+class SaveData {
     //properties
     //collect data from check
     var mood = ""
     var atmosphere = ""
     //var currentdate = date.datetime
-    var checkdata: [String] = []
+    var checkdata = [String]()
+    
+    func simplefunc(a: String, b: String) -> Bool {
+        print("something")
+        return true
+    }
     
     
     //Functions
-    func savefunc --> Bool(mood: String, atmosphere: String) {
-        checkdata.append(contentsOf: mood, atmosphere)
+    func savefunc(mood: String, atmosphere: String) -> Bool {
+        checkdata.append(mood)
+        checkdata.append(atmosphere)
         return true
     }
     
