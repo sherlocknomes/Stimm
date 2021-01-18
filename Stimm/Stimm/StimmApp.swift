@@ -14,6 +14,11 @@ struct StimmApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()
+            
+            
+            //func myFunc() {
+               // var string = "hello world"
+           // }
         }
     }
 }
