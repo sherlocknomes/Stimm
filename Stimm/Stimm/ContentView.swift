@@ -7,7 +7,7 @@
 
 import SwiftUI
 import UIKit
-import
+
 struct ContentView: View {
     var body: some View {
         //These stacks are called containers.
@@ -72,29 +72,12 @@ struct ContentView: View {
 
 
 
-struct QuickCheck: View {
-    var body: some View {
-        //properties
-        
-        
-        //View UI Code
-        Image("Logo")
-            .resizable()
-            .aspectRatio(contentMode: .fit)
-            .padding()
-        //Functions
-        
-    }
-    
-    
-}
 
 
 
 
 
-
-
+//SaveData: saves data gathered in the quick check given upon opening the app
 struct SaveData {
     //properties
     //collect data from check
@@ -105,8 +88,9 @@ struct SaveData {
     
     
     //Functions
-    func savedata() {
-        //checkdata.append(contentsOf: currentdate, mood, atmosphere)
+    func savefunc --> Bool(mood: String, atmosphere: String) {
+        checkdata.append(contentsOf: mood, atmosphere)
+        return true
     }
     
     
@@ -114,6 +98,44 @@ struct SaveData {
 }
 
 
+
+
+
+//MARK - Check
+
+//sets up the UI for the check
+struct CheckUI: View {
+    var body: some View {
+        Text("Placeholder")
+    }
+}
+
+
+
+
+//Collects data from user after asking a couple questions/ "checking in"
+struct QuickCheck{
+    
+        //properties
+        //collects user data here
+        var mood = ""
+        var atmosphere = ""
+        var sv:SaveData = SaveData()
+    
+        //View UI Code
+        
+        //Functions
+        
+        func savecheck(mood: String, atmosphere: String) {
+            sv.savefunc(mood:String, atmosphere:String)
+        }
+        
+        
+        
+    
+    
+    
+}
 
 
 
@@ -136,7 +158,7 @@ struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
         
         ContentView()
-        QuickCheck()
+        CheckUI()
         
     }
 }
